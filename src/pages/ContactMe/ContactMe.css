@@ -1,0 +1,135 @@
+.contact-container{
+    margin: 4rem ;
+    position: relative;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-container h2{
+    /* background: yellow; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* margin-bottom: 3rem; */
+    text-align: center;
+}
+
+.contact-content{
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.contact-container span{
+    /* background: yellow; */
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.contact-container form{
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 1000rem; */
+}
+
+.name, .email, .message{
+    /* font-size: medium; */
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    background: rgb(36, 36, 51);
+    border: 2px solid rgb(59, 59, 168);
+    font-size: 0.9rem;
+    border-radius: 0.6rem;
+    color: white;
+
+
+
+}
+
+.submitBtn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin: 1rem;
+    width: auto;
+    max-width: 30rem;
+    border: 2px solid rgb(59, 59, 168);
+    border-radius: 0.6rem;
+    background: linear-gradient(90deg, rgb(59, 59, 168) 0%, rgb(82, 82, 144) 100%);
+    padding: 0.7rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background: transparent;
+    color: rgb(59, 59, 168);
+}
+
+.links{
+    /* background: yellow; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+}
+
+.instagram{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.contact-container::after,
+.contact-container::before {
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: rgb(168, 168, 221);
+    position: absolute;
+    z-index: -1;
+    filter: blur(220px);
+}
+
+.contact-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.contact-container::before {
+    bottom: 2rem;
+    right: 0rem;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .contact-container span{
+        /* background: yellow; */
+        /* padding: 1rem; */
+        font-size: medium;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+    
+}

@@ -1,0 +1,128 @@
+.skill-container{
+    height: auto;
+    width: 100vw;
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    
+
+}
+
+.skill-container span{
+    font-size: 2rem;
+    font-weight: 600;
+    /* background: yellow; */
+
+}
+.skill-container p{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.skillContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.skill-btn{
+    height: auto;
+    width: 40vw;
+    background: rgb(22, 20, 20);
+    /* background: rgb(22, 22, 51); */
+    border-radius: 0.65rem;
+    border: 2px solid rgb(36, 36, 51);;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    box-shadow: 0 0 9px rgb(39, 40, 79);
+    font-size: 1.5rem;
+    
+
+}
+.skill-btnactive{
+    height: auto;
+    width: 40vw;
+    background: rgb(83, 83, 161);
+    /* background: rgb(22, 22, 51); */
+    border-radius: 0.65rem;
+    border: 2px solid rgb(36, 36, 51);;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 9px rgb(39, 40, 79);
+    font-size: 1.5rem;
+
+}
+
+.skill-btn:hover{
+    background: rgb(83, 83, 161);
+}
+
+.skill-btn img,
+.skill-btnactive img{
+    /* background: yellow; */
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem 2.5rem;
+    margin-right: 1rem;
+}
+
+
+.skill-container::after,
+.skill-container::before {
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: rgb(168, 168, 221);
+    position: absolute;
+    z-index: -1;
+    filter: blur(220px);
+}
+
+.skill-container::after {
+    top: 4rem;
+    left: 2rem;
+}
+
+.skill-container::before {
+    bottom: -3rem;
+    right: 3rem;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .skill-container{
+        width: 100%;
+    }
+
+    .skill-btn{
+        width: 40vh;
+        height: auto;
+        font-size: 1.2rem;
+    }
+
+    .skill-btn img,
+    .skill-btnactive img{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .skill-btnactive{
+        width: 40vh;
+        height: auto;
+        font-size: 1.2rem;
+    }
+    
+}

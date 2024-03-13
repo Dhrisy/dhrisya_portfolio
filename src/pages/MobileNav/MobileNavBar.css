@@ -1,0 +1,81 @@
+.mobile-menu{
+    /* width: 70vw; */
+    height: 100vh;
+    display: none;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    z-index: 999 !important;
+    opacity: 0;
+    box-shadow: 0px 29px 80px black;
+    transition: all 0.3s ease;
+    transform: translateX(-100vw);
+}
+.mobile-menu.active{
+    /* color: red; */
+    opacity: 1;
+    transform: translateX();
+}
+
+.mobile-menu-container{
+    width: 80vw;
+    height: 100vh;
+    background-color:rgb(35, 35, 94);
+}
+
+.Mobilenav-bar-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.Mobilenav-bar-btn{
+    margin: 1rem;
+    width: 60vw;
+    font-size: 1rem;
+    font-weight: 500;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0.6rem 2rem;
+    background: linear-gradient(90deg, rgb(168, 168, 221) 0%, rgb(103, 103, 219) 100%);
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.Mobilenav-bar-btn:hover{
+
+    color: rgb(168, 168, 221);
+    background: black;
+    outline: 1.5px solid rgb(168, 168, 221);
+
+}
+
+
+@media screen and (max-width:550px){
+    .mobile-menu{
+        display: block;
+
+       
+    }
+
+    .Mobilenav-bar-item{
+        display: block;
+    }
+    .Mobilenav-bar-btn{
+        display: block;
+    }
+
+    
+}

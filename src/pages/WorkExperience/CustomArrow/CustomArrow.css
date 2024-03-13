@@ -1,0 +1,30 @@
+/* Add your custom arrow styles */
+.custom-arrow {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(95, 95, 189);
+    border-radius: 0.65rem;
+    border: 1.5px solid rgb(95, 95, 189);
+    
+    z-index: 2;
+    cursor: pointer;
+    background: black;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+   
+    font-size: 24px; 
+   
+  }
+  
+  .custom-arrow.left {
+    left: 1rem; 
+  }
+  
+  .custom-arrow.right {
+    right: 1rem; 
+  }
+  
