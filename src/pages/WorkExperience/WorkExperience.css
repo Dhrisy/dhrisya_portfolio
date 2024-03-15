@@ -41,7 +41,10 @@
 
 
 @media screen and (max-width: 700px) {
+.work-container{
 
+    width: auto;
+}
     
     
 }
