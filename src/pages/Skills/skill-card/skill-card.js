@@ -11,7 +11,7 @@ function SkillCardPart({icon, title, description, skills}) {
           return <React.Fragment key={`skill-${index}`}>
             <div className='skillCard'>
             <p>{item.skill}</p>
-            {item.icon !== "" ? <div className='container-img'><img src={item.icon}/></div> : ""}
+            {item.icon !== "" ? <div className='container-img'><img src={item.icon} alt='icon'/></div> : ""}
             </div>
           </React.Fragment>
 

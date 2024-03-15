@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import "./Skills.css"
 import { SKILLS } from '../../utils/data'
-import SkillCard from './SkillCard/SkillCard'
-import SkillCardInfo from './SkillCardInfo/SkillCardInfo';
+
 import SkillCardPart from './skill-card/skill-card';
-import frontend from "../../assets/frontend.png"
+
 
 // function Skills() {
 

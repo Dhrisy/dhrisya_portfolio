@@ -1,40 +1,13 @@
-// import React from 'react'
-// import "./ContactMe.css"
-// import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
-// import email from "../../assets/mail.png"
-// import ContactForm from './ContactForm/ContactForm'
-
-// function ContactMe() {
-//   return (
-//     <div className='contact-container'>
-//       <h5>Contact me</h5>
-
-//       <div className='contact-content'>
-//         <div style={{flex:1}}>
-//             <ContactInfoCard
-//             iconUrl={email}
-//             text={"ddhrisyal2000@gmail.com"}
-//             />
-
-//         </div>
-//         <div style={{flex:1}}>
-//             <ContactForm/>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default ContactMe
 
 
 
-import React, { useRef, useState } from 'react'
+
+import React, { useRef } from 'react'
 import "./ContactMe.css"
 import LinkedIn from "../../assets/linkedin.png"
 import Insta from "../../assets/instagram.png"
 import emailjs from '@emailjs/browser';
-import CustomAlert from '../../components/CustomAlert/CustomAlert';
+
 
 function ContactMe() {
   // const [showAlert, setAlert] = useState(false);
@@ -50,17 +23,17 @@ function ContactMe() {
 
 
   const form = useRef();
-  const checkValidate = () => {
-    const name = form.current['from_name'].value;
-    const email = form.current['from_email'].value;
-    const message = form.current['message'].value;
+  // const checkValidate = () => {
+  //   const name = form.current['from_name'].value;
+  //   const email = form.current['from_email'].value;
+  //   const message = form.current['message'].value;
     
-    if (!email || !name || !message) {
-      alert('Please enter all the details');
-    } else {
-      sendEmail();
-    }
-  }
+  //   if (!email || !name || !message) {
+  //     alert('Please enter all the details');
+  //   } else {
+  //     sendEmail();
+  //   }
+  // }
 
   const navigateToLinkedIn = () => {
    

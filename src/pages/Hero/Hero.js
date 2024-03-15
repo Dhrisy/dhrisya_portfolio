@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Hero.css"
 import HeroImg from "../../assets/profile_photo.jpeg"
-import Photo from "../../assets/photo.jpeg"
+
 import ReactImg from "../../assets/react_logo.png"
 import FlutterImg from "../../assets/flutter_logo.png"
 import FirebaseImg from "../../assets/firebase_logo.png"
