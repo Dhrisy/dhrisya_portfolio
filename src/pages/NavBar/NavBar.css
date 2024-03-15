@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 0 auto;
     /* background: yellow; */
 }
@@ -122,8 +122,8 @@
     }
     .navbar{
         display: flex;
-        align-items: start;
-        justify-content: end;
+        align-items: flex-start;
+        justify-content: flex-end;
         margin: 0;
     }
    
