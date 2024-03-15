@@ -93,7 +93,7 @@ function Skills() {
       <div>
         {SKILLS.map((item, index) => (
           <div key={index}>
-            <button className={`skill-btn${expandedIndex === index ? "active" : ""}`} onClick={() => handleToggle(index)}><img src={item.icon}/> {item.title}</button>
+            <button className={`skill-btn${expandedIndex === index ? "active" : ""}`} onClick={() => handleToggle(index)}><img src={item.icon} alt='icon'/> {item.title}</button>
             {expandedIndex === index && (
               <SkillCardPart title={item.title} icon={item.icon} skills={item.skills} />
             )}
