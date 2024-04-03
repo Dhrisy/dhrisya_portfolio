@@ -15,6 +15,7 @@ import python from "../assets/python.png"
 import flutterflow from "../assets/flutterflow.png"
 
 
+
 export const SKILLS = [
     {
         title: "Frontend",
@@ -23,8 +24,10 @@ export const SKILLS = [
             {skill: "Flutter", icon:flutter,},
             {skill: "Flutter Flow", icon:flutterflow,},
             {skill: "React", icon:react,},
+            {skill: "React Native", icon: react},
             {skill: "HTML", icon:html,},
             {skill: "CSS", icon:css,},
+            
         ]
     },
 
