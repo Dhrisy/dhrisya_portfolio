@@ -54,6 +54,13 @@ function NavBar() {
           offset={-100}
           duration={500}
           className='nav-bar-item'>Experience</Link>
+          <Link
+          activeClass='active' to='projects-section'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className='nav-bar-item'>Projects</Link>
           <Link 
           activeClass='active' to='contact-section'
           spy={true}

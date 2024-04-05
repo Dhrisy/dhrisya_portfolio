@@ -45,6 +45,7 @@
     font-size: 3.8rem;
     font-weight: 600;
     line-height: 5rem;
+    color: rgb(9, 9, 58);
     /* margin-bottom: 1rem; */
 }
 
@@ -53,7 +54,7 @@ margin-left: 1rem;
 font-size: 3.8rem;
     font-weight: 600;
     line-height: 5rem;
-    color: rgb(9, 9, 58);
+    color: white;
     font-family: "Poppins";
     /* color: rgb(59, 59, 168); */
 /* background: green; */
@@ -64,6 +65,7 @@ font-size: 3.8rem;
     font-weight: 600;
     line-height: 5rem;
     display: flex;
+    color: rgb(9, 9, 58);
 }
 
 .hero-content p {
