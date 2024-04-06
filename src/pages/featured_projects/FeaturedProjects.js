@@ -6,7 +6,7 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
     {
         id: 1,
-        title: "Apna AI",
+        title: "Apna AI - Multilingual Chat App",
         img: `https://play-lh.googleusercontent.com/fjTk56_k1pQ_0xPkZggnu1pEPVBeZMx19wLN3K-IWCBoKWu_-Ki5LeLuWdith6V3Ft26=w2560-h1440-rw`,
         description: `A Multilingual chat AI application.\n
         Crafted visually captivating pages using Flutter, ensuring an intuitive and seamless user experience.\n
