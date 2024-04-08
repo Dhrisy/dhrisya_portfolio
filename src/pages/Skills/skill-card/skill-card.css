@@ -12,18 +12,32 @@
     height: auto;
     width: auto;
     margin: 0.5rem 1rem;
-    border: 2px solid rgb(83, 83, 161);
+    border: 2px solid rgb(233, 103, 16);
     border-radius: 0.65rem;
 }
 .skillCard p{
     padding-top: 1rem;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
 
     .container-img img{
         height: 2rem;
         width: 2rem;
     }
+    
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-img img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .skillCard p{
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    
     
 }

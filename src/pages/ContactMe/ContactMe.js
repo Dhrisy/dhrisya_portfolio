@@ -93,7 +93,9 @@ function ContactMe() {
         <h2>Contact me</h2>
         <span>Please fill out the form below to discuss any work opportunities</span>
         <form ref={form} onSubmit={sendEmail}>
-          <input id='user_name' type='text' className='name' placeholder='Your name' name='from_name' />
+          <input 
+          id='user_name' type='text' className='name' 
+          placeholder='Your name' name='from_name' />
           <input id='user_email' type='text' className='email' placeholder='Your email' name='from_email' />
           <textarea id='user_message' type='text' className='message' placeholder='Your Message' name='message' rows={4} />
 

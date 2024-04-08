@@ -1,50 +1,88 @@
 .work-container{
-    height: auto;
+    height: 100vh;
     width: 90vw;
     position: relative;
-    border-radius: 0.65rem;
-    /* border: 1px solid yellow; */
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 5rem;
-    /* margin: 0 4rem; */
-    box-shadow: 0 0 10px rgb(77, 79, 134);
+    margin: auto;
+    /* background-color: yellow; */
+    
 }
 
 .work-container h5{
-    font-size: 1.5rem;
-    margin-left: 2rem;
-    /* background: yellow; */
-    padding-top: 2rem;
-    /* margin-top: 3rem; */
+    font-size: 3rem;
+    /* margin-left: 2rem; */
+    /* padding-top: 2rem; */
+    text-align: center;
+}
+.work-container h5:hover{
+    color: rgb(233, 103, 16);
 }
 
-/* .arrow-right,
-.arrow-left{
-    width: 2.2rem;
-    height: 2.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(95, 95, 189);
+
+
+.work-content{
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+    position: relative;
     border-radius: 0.65rem;
-    border: 1.5px solid rgb(95, 95, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    /* align-self: center; */
+    /* align-items: center; */
+    
+}
+
+
+.work-container::after,
+.work-container::before {
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: rgb(248, 185, 144);
     position: absolute;
-    z-index: 2;
-    cursor: pointer;
-    background: black;
-    top: 50%;
-} */
+    z-index: -1;
+    filter: blur(220px);
+}
+
+.work-container::after {
+    top: 4rem;
+    left: 2rem;
+}
+
+.work-container::before {
+    bottom: -3rem;
+    right: 3rem;
+}
 
 
-/*  */
-
-
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
 .work-container{
 
     width: auto;
 }
     
+    
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .work-container h5{
+        font-size: 2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+   .work-container{
+    margin-top: 4rem;
+   }
+    .work-container h5{
+        font-size: 2rem;
+    }
+
     
 }

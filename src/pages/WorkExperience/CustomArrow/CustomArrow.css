@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(95, 95, 189);
+    color: rgb(233, 103, 16);
     border-radius: 0.65rem;
-    border: 1.5px solid rgb(95, 95, 189);
+    border: 1.5px solid rgb(233, 103, 16);
     
     z-index: 2;
     cursor: pointer;
@@ -26,5 +26,14 @@
   
   .custom-arrow.right {
     right: 1rem; 
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .custom-arrow{
+      height: 2rem;
+      width: 2rem;
+      z-index: 1;
+    }
+    
   }
   

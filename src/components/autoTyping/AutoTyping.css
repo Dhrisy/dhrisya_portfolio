@@ -1,0 +1,18 @@
+.auto-typing-text{
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(233, 103, 16);
+}
+.am-text{
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    
+    
+}

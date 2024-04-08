@@ -1,11 +1,21 @@
 import React from 'react'
 import "./skill-card.css"
+import { motion } from 'framer-motion'
 
 function SkillCardPart({icon, title, description, skills}) {
   return (
     <div className='skill-card-container'>
         
-        <div className='skill-card-content'>
+        <motion.div className='skill-card-content'
+        initial={{ opacity:0, y: -20 }}
+        animate={{ opacity: 1, y:0, 
+          transition: {
+            staggerChildren:1,
+            delayChildren: 1,
+            bounceStiffness:200
+          }
+         }}
+        >
         {skills.map((item, index) => {
           // console.log(`eee  ${item.skill}`);
           return <React.Fragment key={`skill-${index}`}>
@@ -16,7 +26,7 @@ function SkillCardPart({icon, title, description, skills}) {
           </React.Fragment>
 
         })}
-        </div>
+        </motion.div>
       
     </div>
   )

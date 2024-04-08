@@ -1,6 +1,6 @@
 .experience-card{
     border-radius: 0.65rem;
-    border: 2px solid rgb(95, 95, 189);
+    border: 2px solid rgb(233, 103, 16);
     padding: 0 1rem;
     width: auto;
     height: 40vh;
@@ -8,7 +8,7 @@
     margin-right: 2rem;
     margin-bottom: 5rem;
     /* margin: 1rem 1rem; */
-    background: rgb(36, 36, 51);
+    background: rgb(20, 20, 20);
 }
 
 .experience-card h6{
@@ -24,7 +24,7 @@
     /* background: yellow; */
     font-size: 0.7rem;
     font-weight: 400;
-    background: rgb(55, 55, 110);
+    background: rgb(233, 103, 16);
     border-radius: 0.3rem;
     padding: 0.4rem 0.6rem;
 }
@@ -41,16 +41,35 @@
     content: " ";
     width: 0.5rem;
     height: 0.5rem;
-    background: rgb(95, 95, 189);
+    background: rgb(233, 103, 16);
     border-radius: 0.5rem;
     position: absolute;
     top: 0.5rem;
     left: -1.5rem;
 }
 
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
     .experience-card{
         height: auto;
     }
     
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .experience-card{
+   /* background-color: green; */
+
+}
+.experience-card h6{
+    font-size: 1rem;
+}
+.work-duration{
+    font-size: 0.5rem;
+}
+.experience-card ul li{
+    font-size: 0.7rem;
+}
+
+
 }

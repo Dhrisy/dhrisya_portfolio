@@ -1,5 +1,6 @@
 .contact-container{
-    margin: 4rem ;
+    /* margin: 4rem ; */
+    height: 100vh;
     position: relative;
     /* background: red; */
     display: flex;
@@ -11,10 +12,13 @@
 
 .contact-container h2{
     /* background: yellow; */
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 600;
     /* margin-bottom: 3rem; */
     text-align: center;
+}
+.contact-container h2:hover{
+    color: rgb(233, 103, 16);
 }
 
 .contact-content{
@@ -46,15 +50,17 @@
 
 .name, .email, .message{
     /* font-size: medium; */
+    font-family: "Montserrat", sans-serif;
     width: 100%;
     max-width: 40rem;
     margin: 0.5rem;
     padding: 1rem;
-    background: rgb(36, 36, 51);
-    border: 2px solid rgb(59, 59, 168);
+    background: rgb(24, 24, 24);
+    border: 2px solid rgb(233, 103, 16);
     font-size: 0.9rem;
     border-radius: 0.6rem;
     color: white;
+    outline: none;
 
 
 
@@ -67,9 +73,9 @@
     margin: 1rem;
     width: auto;
     max-width: 30rem;
-    border: 2px solid rgb(59, 59, 168);
+    border: 2px solid rgb(233, 103, 16);
     border-radius: 0.6rem;
-    background: linear-gradient(90deg, rgb(59, 59, 168) 0%, rgb(82, 82, 144) 100%);
+    background: linear-gradient(90deg, rgb(248, 185, 144) 0%, rgb(233, 103, 16) 100%);
     padding: 0.7rem;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -77,7 +83,7 @@
 
 .submitBtn:hover{
     background: transparent;
-    color: rgb(59, 59, 168);
+    color: rgb(233, 103, 16);
 }
 
 .links{
@@ -104,15 +110,15 @@
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: rgb(168, 168, 221);
+    background: rgb(248, 185, 144);
     position: absolute;
     z-index: -1;
     filter: blur(220px);
 }
 
 .contact-container::after {
-    top: -3rem;
-    left: -5rem;
+    top: 3rem;
+    left: 5rem;
 }
 
 .contact-container::before {
@@ -121,11 +127,9 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
     .contact-container span{
-        /* background: yellow; */
-        /* padding: 1rem; */
         font-size: medium;
         font-weight: 300;
         text-align: center;

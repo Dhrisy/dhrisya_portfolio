@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import CustomArrow from './CustomArrow/CustomArrow';
 function WorkExperience() {
 
- 
+
   const sliderRef = useRef();
   const settings = {
     dots: true,
@@ -15,8 +15,8 @@ function WorkExperience() {
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: true, // Set arrows to true
-  prevArrow: <CustomArrow direction="left" />, // Replace with your left arrow component
-  nextArrow: <CustomArrow direction="right" />,
+    prevArrow: <CustomArrow direction="left" />, // Replace with your left arrow component
+    nextArrow: <CustomArrow direction="right" />,
     // lazyLoad: true,
     responsive: [{
       breakpoint: 769,
@@ -27,10 +27,10 @@ function WorkExperience() {
     },
     ],
 
-    
+
   };
 
-  
+
   return (
     <div id='experience-section' className='work-container'>
       <h5>Work Experience</h5>

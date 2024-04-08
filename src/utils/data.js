@@ -13,6 +13,7 @@ import css from "../assets/css-icon.png"
 import firebase from "../assets/firebase_logo.png"
 import python from "../assets/python.png"
 import flutterflow from "../assets/flutterflow.png"
+import javaScript from "../assets/java-script.png"
 
 
 
@@ -25,6 +26,7 @@ export const SKILLS = [
             {skill: "Flutter Flow", icon:flutterflow,},
             {skill: "React", icon:react,},
             {skill: "React Native", icon: react},
+            {skill: "Java script", icon: javaScript},
             {skill: "HTML", icon:html,},
             {skill: "CSS", icon:css,},
             
