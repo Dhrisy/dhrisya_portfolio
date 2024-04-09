@@ -66,25 +66,7 @@ function ContactMe() {
       );
   };
 
-  // const sendEmail = () => {
-  //   // e.preventDefault();
-  //   console.log('//////////////////');
 
-  //   emailjs
-  //     .sendForm('service_luw286n', 'template_qunnzvg', form.current, {
-  //       publicKey: 'kfC6202TCJEQwSZ1k',
-  //     })
-  //     .then(
-  //       () => {
-  //         console.log('SUCCESS!');
-  //         alert('Email sent');
-  //         // e.target.reset();
-  //       },
-  //       (error) => {
-  //         console.log('FAILED...', error.text);
-  //       },
-  //     );
-  // };
 
   return (
     <div id='contact-section' className='contact-container'>

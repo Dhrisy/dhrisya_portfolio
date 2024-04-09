@@ -76,7 +76,7 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
    .work-container{
     margin-top: 4rem;
    }
@@ -86,3 +86,14 @@
 
     
 }
+@media screen  and (max-width: 600px) {
+    .work-container{
+     /* margin-top: 4rem; */
+     height: auto;
+    }
+     .work-container h5{
+         font-size: 2rem;
+     }
+ 
+     
+ }

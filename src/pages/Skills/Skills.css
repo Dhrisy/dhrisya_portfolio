@@ -160,7 +160,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .skill-container{
         /* background-co
         lor: green; */
@@ -186,3 +186,33 @@
 }
     
 }
+
+@media screen and (max-width: 600px) {
+    .skill-container{
+        /* background-co
+        lor: green; */
+        margin-top: 4rem;
+        height: auto;
+    }
+    .skill-container span{
+        font-size: 2rem;
+    }
+    .skill-container p{
+        padding-bottom: 0rem;
+        /* background-color: yellow; */
+        font-size: 1rem;
+    }
+    .skill-btn, .skill-btnactive{
+       font-size: 1rem;
+       width: 100%;
+    }
+
+    .skill-btn img,
+.skill-btnactive img{
+    height: 2rem;
+    width: 2rem;
+}
+    
+}
+
+

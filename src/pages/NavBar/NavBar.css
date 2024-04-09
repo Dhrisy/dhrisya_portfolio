@@ -307,10 +307,45 @@
 
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (min-width: 600px) and (max-width:768px){
     .navbar{
         background-color: none;
         background: none;
+        display: flex;
+        align-items: flex-start;
+        backdrop-filter: blur(0px);
+        
+        
+        /* align-items: center; */
+    }
+    .nav-content{
+        width: 100vw;
+    }
+    .nav-bar-item{
+        display: none;
+    }
+    .nav-bar-itemactive{
+        display: none;
+
+    }
+    .nav-bar-btn{
+        display: none;
+    }
+    .menu-btn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        /* align-self: flex-end; */
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        background-color: none;
+        background: none;
+        padding-top: 1rem;
+        padding-right: 2rem;
         display: flex;
         align-items: flex-start;
         backdrop-filter: blur(0px);

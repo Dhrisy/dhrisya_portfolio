@@ -26,9 +26,19 @@
         justify-content: center;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px)and (max-width: 768px) {
     .icon-container{
+        /* background-color: red; */
         height: 3rem;
         width: 3rem;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .icon-container{
+        /* background-color: green; */
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+   
 }

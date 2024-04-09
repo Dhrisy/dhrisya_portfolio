@@ -73,3 +73,17 @@
 
 
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+.experience-card {
+    /* background-color: red; */
+    height: auto;
+}
+
+    
+}

@@ -127,7 +127,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and(min-width: 600px) and (max-width: 768px) {
 
     .contact-container span{
         font-size: medium;
@@ -136,4 +136,35 @@
         
     }
     
+}
+
+@media screen and (max-width: 600px) {
+   
+
+    .contact-container span{
+        /* background-color: yellow; */
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+    
+.contact-container h2{
+    /* background: yellow; */
+    font-size: 2rem;
+    font-weight: 600;
+}
+.name, .email, .message{
+    /* font-size: medium; */
+    font-family: "Montserrat", sans-serif;
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+}
+.contact-container form{
+    /* background-color: blue; */
+    margin: 1rem 0;
+}
+
+
+ 
 }
